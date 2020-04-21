@@ -1,7 +1,9 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest/globals": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -19,8 +21,14 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "jest"
     ],
     "rules": {
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
     }
 };
