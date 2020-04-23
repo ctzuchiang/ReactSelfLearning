@@ -3,6 +3,7 @@ import UserInfo from "./UserInfo";
 import Clock from "./Clock";
 import { ActionLink, Toggle } from "./ActionLink";
 import LoginControl from "./LoginControl";
+import WarningPage from "./WarningBanner";
 
 function TestApp() {
   const element = (
@@ -12,6 +13,7 @@ function TestApp() {
       <ActionLink />
       <Toggle />
       <LoginControl />,
+      <WarningPage />
     </div>
   );
   return element;
