@@ -1,4 +1,5 @@
 import React from "react";
+import { ListItem } from "./lib/Lib";
 
 class ListSample extends React.Component {
   constructor(props) {
@@ -16,11 +17,6 @@ function NumberList(props) {
     <ListItem key={number.toString()} value={number} />
   ));
   return <ul>{listItems}</ul>;
-}
-
-function ListItem(props) {
-  const value = props.value;
-  return <li>{value}</li>;
 }
 
 export default ListSample;
