@@ -1,7 +1,8 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 import Clock from "./Clock";
-import {ActionLink, Toggle} from "./ActionLink";
+import { ActionLink, Toggle } from "./ActionLink";
+import LoginControl from "./LoginControl";
 
 function TestApp() {
   const element = (
@@ -10,7 +11,7 @@ function TestApp() {
       <Clock />
       <ActionLink />
       <Toggle />
-
+      <LoginControl />,
     </div>
   );
   return element;
