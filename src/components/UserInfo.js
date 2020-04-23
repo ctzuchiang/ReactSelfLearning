@@ -14,18 +14,18 @@ function formatDate(date) {
 }
 function Avatar(props) {
   return (
-    <img className="Avatar" src={props.user.avatarUrl} alt={props.user.name} />
+    <img className='Avatar' src={props.user.avatarUrl} alt={props.user.name} />
   );
 }
 
 const UserInfo = (
-  <div className="Comment">
-    <div className="UserInfo">
+  <div className='Comment'>
+    <div className='UserInfo'>
       <Avatar user={comment.author} />
-      <div className="UserInfo-name">{comment.author.name}</div>
+      <div className='UserInfo-name'>{comment.author.name}</div>
     </div>
-    <div className="Comment-text">{comment.text}</div>
-    <div className="Comment-date">{formatDate(comment.date)}</div>
+    <div className='Comment-text'>{comment.text}</div>
+    <div className='Comment-date'>{formatDate(comment.date)}</div>
   </div>
 );
 

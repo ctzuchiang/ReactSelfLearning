@@ -1,6 +1,7 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 import Clock from "./Clock";
+import ListSample from "./ListSample";
 import { ActionLink, Toggle } from "./ActionLink";
 import LoginControl from "./LoginControl";
 import WarningPage from "./WarningBanner";
@@ -14,6 +15,7 @@ function TestApp() {
       <Toggle />
       <LoginControl />,
       <WarningPage />
+      <ListSample />
     </div>
   );
   return element;
