@@ -1,7 +1,7 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 import Clock from "./Clock";
-import { NameForm, EssayForm } from "./FormSample";
+import { NameForm, EssayForm, FlavorForm } from "./FormSample";
 // import { ActionLink, Toggle } from "./ActionLink";
 // import LoginControl from "./LoginControl";
 // import WarningPage from "./WarningBanner";
@@ -21,6 +21,7 @@ function TestApp() {
       <Blog /> */}
       <NameForm />
       <EssayForm />
+      <FlavorForm />
     </div>
   );
   return element;
