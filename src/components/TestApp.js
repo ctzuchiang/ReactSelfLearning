@@ -1,6 +1,7 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 import Clock from "./Clock";
+import { NameForm, EssayForm } from "./FormSample";
 // import { ActionLink, Toggle } from "./ActionLink";
 // import LoginControl from "./LoginControl";
 // import WarningPage from "./WarningBanner";
@@ -18,22 +19,11 @@ function TestApp() {
       <WarningPage />
       <ListSample />
       <Blog /> */}
-      <FormSample />
+      <NameForm />
+      <EssayForm />
     </div>
   );
   return element;
-}
-
-function FormSample() {
-  return (
-    <form>
-      <label>
-        Name:
-        <input type='text' name='name' />
-      </label>
-      <input type='submit' value='Submit' />
-    </form>
-  );
 }
 
 export default TestApp;
