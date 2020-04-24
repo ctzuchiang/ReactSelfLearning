@@ -1,7 +1,7 @@
 import React from "react";
 import UserInfo from "./UserInfo";
 import Clock from "./Clock";
-import { NameForm, EssayForm, FlavorForm, MultiSelectForm } from "./FormSample";
+// import { NameForm, EssayForm, FlavorForm, MultiSelectForm } from "./FormSample";
 // import { ActionLink, Toggle } from "./ActionLink";
 // import LoginControl from "./LoginControl";
 // import WarningPage from "./WarningBanner";
@@ -18,11 +18,11 @@ function TestApp() {
       <LoginControl />,
       <WarningPage />
       <ListSample />
-      <Blog /> */}
+      <Blog />
       <NameForm />
       <EssayForm />
       <FlavorForm />
-      <MultiSelectForm />
+      <MultiSelectForm /> */}
     </div>
   );
   return element;
