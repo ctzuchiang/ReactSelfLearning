@@ -102,4 +102,51 @@ class FlavorForm extends React.Component {
   }
 }
 
-export { NameForm, EssayForm, FlavorForm };
+class MultiSelectForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: ["apple", "banana"],
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({
+      value: [].slice.call(event.target.selectedOptions).map((option) => {
+        return option.value;
+      }),
+    });
+  }
+
+  handleSubmit(event) {
+    alert("Your favorite fruit(s): " + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          Selects your favorite fruit(s)
+          <select
+            multiple={true}
+            value={this.state.value}
+            onChange={this.handleChange}
+          >
+            <option value='grape'>Grape</option>
+            <option value='apple'>Apple</option>
+            <option value='lemon'>Lemon</option>
+            <option value='banana'>Banana</option>
+            <option value='mango'>Mango</option>
+          </select>
+        </label>
+        <input type='submit' value='Submit' />
+      </form>
+    );
+  }
+}
+
+export { NameForm, EssayForm, FlavorForm, MultiSelectForm };
