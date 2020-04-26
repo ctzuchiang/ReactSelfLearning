@@ -9,6 +9,8 @@ import WarningPage from "./WarningBanner";
 import ListSample from "./ListSample";
 import Blog from "./Blog";
 import BoilingCalculator from "./BollingWater";
+import WelcomeDialog from "./WelcomeDialog";
+import SplitPaneSample from "./SplitPaneSample";
 
 function TestApp() {
   const element = (
@@ -28,10 +30,11 @@ function TestApp() {
       <Reservation />
       <input type='file' />
       <BoilingCalculator />
+      <WelcomeDialog />
+      <SplitPaneSample />
     </div>
   );
   return element;
 }
-
 
 export default TestApp;

@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
 import TestApp from "./components/TestApp";
-import SampleComponents from "./sampleComponents/Sample";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(
@@ -16,8 +15,7 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <div>
     <React.StrictMode>
-      {/* <TestApp /> */}
-      <SampleComponents />
+      <TestApp />
     </React.StrictMode>
   </div>,
   document.getElementById("root")
