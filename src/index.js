@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
 import TestApp from "./components/TestApp";
+import SampleComponents from "./sampleComponents/Sample";
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(
@@ -12,14 +13,15 @@ import * as serviceWorker from "./serviceWorker";
 //   document.getElementById('root')
 // );
 
-  ReactDOM.render(
-    <div>
-      <React.StrictMode>
-        <TestApp />
-      </React.StrictMode>
-    </div>,
-    document.getElementById("root")
-  );
+ReactDOM.render(
+  <div>
+    <React.StrictMode>
+      {/* <TestApp /> */}
+      <SampleComponents />
+    </React.StrictMode>
+  </div>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
