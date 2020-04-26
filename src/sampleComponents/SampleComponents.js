@@ -12,7 +12,7 @@ import BoilingCalculator from "./BollingWater";
 import WelcomeDialog from "./WelcomeDialog";
 import SplitPaneSample from "./SplitPaneSample";
 
-function TestApp() {
+function SampleComponents() {
   const element = (
     <div>
       {UserInfo}
@@ -37,4 +37,4 @@ function TestApp() {
   return element;
 }
 
-export default TestApp;
+export default SampleComponents;
