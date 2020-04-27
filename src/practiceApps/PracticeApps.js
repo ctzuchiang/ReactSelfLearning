@@ -4,7 +4,7 @@ import RefNameForm from "./RefNameForm";
 import SuspenseApiSample from "./SuspenseApiSample";
 
 function PracticeApps() {
-  const ViewToggle = false;
+  const ViewToggle = true;
 
   if (ViewToggle) {
     return (

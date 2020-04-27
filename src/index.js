@@ -8,8 +8,8 @@ import PracticeHookApps from "./practiceHook/PracticeHookApps"
 import * as serviceWorker from "./serviceWorker";
 
 function ComponentsToggle() {
-  const Toggle = false;
-  if (Toggle) {
+  const ViewToggle = true;
+  if (ViewToggle) {
     return (
       <div>
         <React.StrictMode>
