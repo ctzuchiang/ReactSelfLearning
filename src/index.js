@@ -1,27 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
-// import SampleComponents from "./sampleComponents/SampleComponents";
-import PracticeApps from "./practiceApps/PracticeApps"
+import App from "./App";
+import SampleComponents from "./sampleComponents/SampleComponents";
+import PracticeApps from "./practiceApps/PracticeApps";
 import * as serviceWorker from "./serviceWorker";
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+function ComponentsToggle() {
+  const Toggle = false;
+  if (Toggle) {
+    return (
+      <div>
+        <React.StrictMode>
+          <App />
+          <SampleComponents />
+        </React.StrictMode>
+      </div>
+    );
+  }
+  return <PracticeApps />;
+}
 
-ReactDOM.render(
-  <div>
-    <React.StrictMode>
-      {/* <SampleComponents /> */}
-      <PracticeApps />
-    </React.StrictMode>
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<ComponentsToggle />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
