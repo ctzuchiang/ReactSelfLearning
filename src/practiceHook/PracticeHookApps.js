@@ -1,5 +1,5 @@
 import React from "react";
-import BasicSample from "./BasicSample";
+import BasicClickCount from "./BasicClickCount";
 
 function PracticeHookApps() {
   const ViewToggle = false;
@@ -12,7 +12,7 @@ function PracticeHookApps() {
     );
   }
 
-  return <BasicSample />;
+  return <BasicClickCount />;
 }
 
 export default PracticeHookApps;
