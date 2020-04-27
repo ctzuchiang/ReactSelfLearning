@@ -1,4 +1,5 @@
 import React from "react";
+import BasicSample from "./BasicSample";
 
 function PracticeHookApps() {
   const ViewToggle = false;
@@ -11,7 +12,7 @@ function PracticeHookApps() {
     );
   }
 
-  return <></>;
+  return <BasicSample />;
 }
 
 export default PracticeHookApps;

@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import SampleComponents from "./sampleComponents/SampleComponents";
 import PracticeApps from "./practiceApps/PracticeApps";
+import PracticeHookApps from "./practiceHook/PracticeHookApps"
 import * as serviceWorker from "./serviceWorker";
 
 function ComponentsToggle() {
@@ -14,11 +15,12 @@ function ComponentsToggle() {
         <React.StrictMode>
           <App />
           <SampleComponents />
+          <PracticeApps />
         </React.StrictMode>
       </div>
     );
   }
-  return <PracticeApps />;
+  return <PracticeHookApps />;
 }
 
 ReactDOM.render(<ComponentsToggle />, document.getElementById("root"));
