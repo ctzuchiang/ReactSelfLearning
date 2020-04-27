@@ -2,7 +2,7 @@ import React from "react";
 import { BasicClickCount, BasicEffectClickCount } from "./BasicClickCount";
 
 function PracticeHookApps() {
-  const ViewToggle = false;
+  const ViewToggle = true;
 
   if (ViewToggle) {
     return (

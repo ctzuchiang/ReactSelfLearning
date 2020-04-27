@@ -8,7 +8,7 @@ import PracticeHookApps from "./practiceHook/PracticeHookApps"
 import * as serviceWorker from "./serviceWorker";
 
 function ComponentsToggle() {
-  const ViewToggle = false;
+  const ViewToggle = true;
   if (ViewToggle) {
     return (
       <div>
