@@ -22,7 +22,8 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "jest"
+        "jest",
+        "react-hooks"
     ],
     "rules": {
         "jest/no-disabled-tests": "warn",
@@ -30,6 +31,8 @@ module.exports = {
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
         "jest/valid-expect": "error",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "react/prop-types": 0
     }
 };
