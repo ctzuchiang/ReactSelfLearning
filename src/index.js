@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
-import SampleComponents from "./sampleComponents/SampleComponents";
+// import SampleComponents from "./sampleComponents/SampleComponents";
+import PracticeApps from "./practiceApps/PracticeApps"
 import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(
@@ -15,7 +16,8 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <div>
     <React.StrictMode>
-      <SampleComponents />
+      {/* <SampleComponents /> */}
+      <PracticeApps />
     </React.StrictMode>
   </div>,
   document.getElementById("root")
