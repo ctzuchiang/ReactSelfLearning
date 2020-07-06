@@ -30,8 +30,8 @@ export default function TheBattleRing({ dalogId, setDalogId, setShowDialog }) {
                     <img
                         style={{
                             position: "relative",
-                            width: "580px",
-                            paddingBottom: "12px",
+                            width: "560px",
+                            paddingBottom: "20px",
                         }}
                         src="/pic/TW/entertainment/1.png"
                         alt=""
@@ -44,7 +44,10 @@ export default function TheBattleRing({ dalogId, setDalogId, setShowDialog }) {
                         >
                             <b>Legislative Yuan</b>
                         </Typography>
-                        <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                        <Typography
+                            style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
+                            align="center"
+                        >
                             Initially, the highest legislative organ of our country and exercises legislative power on
                             behalf of the people. However, the 113 members of the legislative Yuan often play a role
                             during the questioning and engage in physical fights like reality tv shows.

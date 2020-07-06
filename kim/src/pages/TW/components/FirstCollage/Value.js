@@ -55,7 +55,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "25px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                         lineHeight: "3rem",
                                     }}
@@ -75,7 +75,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "25px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                         lineHeight: "3rem",
                                     }}
@@ -95,7 +95,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "25px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                         lineHeight: "3rem",
                                     }}
@@ -115,7 +115,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "25px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                         lineHeight: "3rem",
                                     }}

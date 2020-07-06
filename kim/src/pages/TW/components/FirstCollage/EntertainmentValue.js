@@ -18,7 +18,7 @@ export default function EntertainmentValue({ dalogId, setDalogId, setShowDialog 
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#D9F0EF" padding="48px">
                     <Box
                         display="flex"
@@ -44,11 +44,11 @@ export default function EntertainmentValue({ dalogId, setDalogId, setShowDialog 
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>moderate entertainment value</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>questioning with puppets, dialects, and intensive tones</b>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                questioning with puppets, dialects, and intensive tones
                             </Typography>
                         </Box>
                     </Box>
@@ -74,11 +74,11 @@ export default function EntertainmentValue({ dalogId, setDalogId, setShowDialog 
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>high entertainment value</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>fights, water pouring, stealing microphones</b>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                fights, water pouring, stealing microphones
                             </Typography>
                         </Box>
                     </Box>

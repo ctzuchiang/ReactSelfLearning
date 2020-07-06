@@ -28,7 +28,15 @@ export default function Entertainments({ dalogId, setDalogId, setShowDialog }) {
                         </b>
                     </DialogContentText>
                 </Box>
-                <Box display="flex" justifyContent="center" bgcolor="#D9F0EF" padding="96px" marginTop="24px">
+                <Box
+                    display="flex"
+                    height="25vh"
+                    alignItems="center"
+                    justifyContent="center"
+                    bgcolor="#D9F0EF"
+                    padding="96px"
+                    marginTop="24px"
+                >
                     <Box>
                         <DialogContentText style={{ color: "#094FA2", fontSize: "30px" }}>
                             <b>The five branches in our constitution framework</b>

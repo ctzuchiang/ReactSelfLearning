@@ -9,16 +9,6 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
             <DialogTitle>
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
-                        <Typography
-                            style={{
-                                color: "#094FA2",
-                                fontSize: "24px",
-                                WebkitTextStrokeWidth: 0,
-                                marginBottom: "-16px",
-                            }}
-                        >
-                            <b>(The One and Only)</b>
-                        </Typography>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
                             <b>Color Pallete</b>
                         </Typography>
@@ -51,41 +41,37 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                             </DialogContentText>
                         </Box>
 
-                        <Box display="flex" alignItems="flex-end" justifyContent="flex-end">
-                            <Box bgcolor="#D9F0EF" padding="16px">
+                        <Box bgcolor="#D9F0EF" padding="16px">
+                            <Typography
+                                style={{
+                                    color: "#094FA2",
+                                    fontSize: "20px",
+                                    WebkitTextStrokeWidth: 0,
+                                    paddingBottom: "12px",
+                                }}
+                            >
+                                <b>Alternative color</b>
+                            </Typography>
+                            <Box bgcolor="#43b3ae" padding="16px">
                                 <Typography
                                     style={{
-                                        color: "#094FA2",
+                                        color: "#FFFFFF",
                                         fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
-                                        paddingBottom: "12px",
+                                        marginBottom: "32px",
                                     }}
                                 >
-                                    <b>Very important supporting color</b>
+                                    Independent verdigris green
                                 </Typography>
-                                <Box bgcolor="#43b3ae" padding="16px">
-                                    <Typography
-                                        style={{
-                                            color: "#FFFFFF",
-                                            fontSize: "20px",
-                                            WebkitTextStrokeWidth: 0,
-                                            marginBottom: "32px",
-                                        }}
-                                    >
-                                        Independent
-                                        <br />
-                                        verdigris green
-                                    </Typography>
-                                    <Typography
-                                        style={{
-                                            color: "#FFFFFF",
-                                            fontSize: "11px",
-                                            WebkitTextStrokeWidth: 0,
-                                        }}
-                                    >
-                                        <b>RGB</b> 67.179.174 <b>Hex</b> #43b3ae <b>CMYK</b> 63.0.3.30
-                                    </Typography>
-                                </Box>
+                                <Typography
+                                    style={{
+                                        color: "#FFFFFF",
+                                        fontSize: "11px",
+                                        WebkitTextStrokeWidth: 0,
+                                    }}
+                                >
+                                    <b>RGB</b> 67.179.174 <b>Hex</b> #43b3ae <b>CMYK</b> 63.0.3.30
+                                </Typography>
                             </Box>
                         </Box>
                     </Box>
