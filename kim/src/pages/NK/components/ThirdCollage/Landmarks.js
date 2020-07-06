@@ -18,7 +18,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
+            <DialogContent>
                 <Box maxWidth="50%" paddingBottom="8px">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
@@ -28,8 +28,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                     </DialogContentText>
                 </Box>
                 <Box
-                    padding="16px 32px"
-                    marginTop="-12px"
+                    padding="32px"
                     bgcolor="#FDD1D3"
                     display="flex"
                     flexGrow={1}
