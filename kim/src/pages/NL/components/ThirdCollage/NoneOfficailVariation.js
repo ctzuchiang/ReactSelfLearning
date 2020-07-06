@@ -10,7 +10,7 @@ export default function NoneOfficailVariation({ dalogId, setDalogId, setShowDial
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>None officai logo variation</b>
+                            <b>Informal logo variations</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -18,12 +18,11 @@ export default function NoneOfficailVariation({ dalogId, setDalogId, setShowDial
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
-                <Box display="flex" bgcolor="#FFDCBF" padding="96px">
+            <DialogContent>
+                <Box flexGrow={1} display="flex" bgcolor="#FFDCBF" padding="120px 64px">
                     <Box
                         display="flex"
                         flexGrow={1}
-                        // borderRight="2px solid #094FA2"
                         width="100%"
                         maxWidth="100%"
                         paddingRight="32px"
@@ -65,26 +64,26 @@ export default function NoneOfficailVariation({ dalogId, setDalogId, setShowDial
                         <Box paddingTop="32px" display="flex" justifyContent="space-between">
                             <Box display="flex" width="30%" justifyContent="center">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>For tattoo</b>
+                                    For tattoo
                                 </Typography>
                             </Box>
                             <Box display="flex" width="40%" justifyContent="center">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>For national team supporters</b>
+                                    For national team supporters
                                 </Typography>
                             </Box>
                             <Box display="flex" width="30%" justifyContent="center">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>For souvenirs</b>
+                                    For souvenirs
                                 </Typography>
                             </Box>
                         </Box>

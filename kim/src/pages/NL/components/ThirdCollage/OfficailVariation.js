@@ -18,8 +18,8 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
-                <Box display="flex" bgcolor="#FFDCBF" padding="32px">
+            <DialogContent>
+                <Box flexGrow={1} display="flex" bgcolor="#FFDCBF" padding="56px 32px">
                     <Box
                         display="flex"
                         flexGrow={1}
@@ -78,8 +78,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                     style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    1. The stylized version that is used as graphic identities by all government
-                                    branches
+                                    The stylized version that is used as graphic identities by all government branches
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
@@ -87,7 +86,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                     style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    2.The simplified version that is used by states general (parliament).
+                                    The simplified version that is used by states general (parliament).
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
@@ -95,7 +94,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                     style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    3. The simplified version that is used by senates.
+                                    The simplified version that is used by senates.
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
@@ -103,7 +102,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                     style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    4.The simplified version that is used by the house of representatives.
+                                    The simplified version that is used by the house of representatives.
                                 </Typography>
                             </Box>
                         </Box>
