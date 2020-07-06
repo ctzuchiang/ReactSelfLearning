@@ -129,6 +129,8 @@ img[name="close-slide"] {
 #land-nl {
     width: 27%;
     cursor: pointer;
+    padding-top: 3%;
+    left: 4%;
 }
 
 #flag-nl {
@@ -161,14 +163,15 @@ img[name="close-slide"] {
 }
 
 .logo {
-    grid-row-start: 4;
     grid-column: 2/6;
-    padding-top: 50%;
+    padding-top: 59%;
 }
 
 #logo-nl {
-    width: 65%;
+    width: 68%;
     cursor: pointer;
+    padding-bottom: 25%;
+    right: 13%;
 }
 
 .typo {
@@ -177,8 +180,8 @@ img[name="close-slide"] {
     margin-top: 4%;
 }
 #typo-nl {
-    width: 78%;
-	cursor: pointer;
+    width: 75%;
+    cursor: pointer;
 }
 
 .typo_pic {
@@ -211,6 +214,7 @@ img[name="close-slide"] {
 #gary-nl {
     width: 61%;
     margin-left: 30%;
+    margin-top: 2%;
 }
 
 .container {
