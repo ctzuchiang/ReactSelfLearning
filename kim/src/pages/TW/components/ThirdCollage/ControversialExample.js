@@ -18,7 +18,7 @@ export default function ControversialExample({ dalogId, setDalogId, setShowDialo
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#D9F0EF" padding="48px">
                     <Box
                         display="flex"
@@ -43,11 +43,11 @@ export default function ControversialExample({ dalogId, setDalogId, setShowDialo
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>for worshipping</b>
-                            </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>Some of us build temples and pray to the previous dictator.</b>
+                                <b>For worshipping</b>
+                            </Typography>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                Some of us build temples and pray to the previous dictator.
                             </Typography>
                         </Box>
                     </Box>
@@ -72,11 +72,11 @@ export default function ControversialExample({ dalogId, setDalogId, setShowDialo
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>for vandalising</b>
-                            </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>Some of us vandalise the statues and portraits of the dictator.</b>
+                                <b>For vandalising</b>
+                            </Typography>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                Some of us vandalise the statues and portraits of the dictator.
                             </Typography>
                         </Box>
                     </Box>

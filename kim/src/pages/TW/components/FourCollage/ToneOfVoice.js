@@ -33,7 +33,10 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                         display="flex"
                         maxWidth="50%"
                         bgcolor="#D9F0EF"
-                        padding="32px"
+                        paddingTop="7vh"
+                        paddingBottom="7vh"
+                        paddingLeft="32px"
+                        paddingRight="32px"
                         flexDirection="column"
                         flexGrow={1}
                     >
@@ -55,7 +58,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                 <b>ambiguous</b>
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>certain, fear, peaceful</b>
+                                certain, fear, peaceful
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 democracy, administrative, status quo
@@ -65,7 +68,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingBottom: "32px",
+                                    paddingBottom: "7vh",
                                 }}
                             >
                                 Chinese, Chinese Taipei, Republic of China
@@ -77,14 +80,14 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingTop: "32px",
+                                    paddingTop: "7vh",
                                     paddingBottom: "32px",
                                 }}
                             >
                                 <b>precise</b>
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>doubtful, conflicting, lost</b>
+                                doubtful, conflicting, lost
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 populism, sovereignty, taboo

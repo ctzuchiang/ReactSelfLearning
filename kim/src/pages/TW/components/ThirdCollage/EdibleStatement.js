@@ -18,7 +18,7 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
+            <DialogContent>
                 <Box maxWidth="50%" paddingBottom="8px">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
@@ -30,7 +30,6 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                 </Box>
                 <Box
                     padding="16px 32px"
-                    marginTop="-12px"
                     bgcolor="#D9F0EF"
                     display="flex"
                     flexGrow={1}
@@ -68,7 +67,7 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -91,7 +90,7 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -114,7 +113,7 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -137,7 +136,7 @@ export default function EdibleStatement({ dalogId, setDalogId, setShowDialog }) 
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >

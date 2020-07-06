@@ -83,7 +83,7 @@ export default function Spirituality({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
                                 }}
                                 align="center"
@@ -107,7 +107,7 @@ export default function Spirituality({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
                                 }}
                                 align="center"
@@ -132,7 +132,7 @@ export default function Spirituality({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
                                 }}
                                 align="center"
@@ -156,7 +156,7 @@ export default function Spirituality({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
                                 }}
                                 align="center"

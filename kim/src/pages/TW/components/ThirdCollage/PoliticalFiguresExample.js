@@ -10,7 +10,7 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>acceptable examples</b>
+                            <b>Acceptable examples</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -18,7 +18,7 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#D9F0EF" padding="48px">
                     <Box
                         display="flex"
@@ -34,7 +34,7 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
+                                        width: "400px",
                                     }}
                                     src="/pic/TW/national_emblem/6.png"
                                     alt=""
@@ -43,14 +43,12 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>for representing</b>
-                            </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>
-                                    The nation’s father is kind of important to our outdated principle. Nonetheless, he
-                                    is on our currency.
-                                </b>
+                                <b>Currency</b>
+                            </Typography>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                The nation’s father is kind of important to our outdated principle. Nonetheless, he is
+                                on our currency.
                             </Typography>
                         </Box>
                     </Box>
@@ -67,7 +65,7 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
+                                        width: "400px",
                                     }}
                                     src="/pic/TW/national_emblem/7.png"
                                     alt=""
@@ -75,10 +73,10 @@ export default function PoliticalFiguresExample({ dalogId, setDalogId, setShowDi
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>for creative outlet</b>
-                            </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                                <b>Creative outlet</b>
+                            </Typography>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 <b>
                                     We like to make our political figures into creative figures as well. They are more
                                     likable and approachable in this way of characterization.
