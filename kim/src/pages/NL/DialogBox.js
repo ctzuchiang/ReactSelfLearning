@@ -19,6 +19,7 @@ import Sandwiches from "./components/FiveCollage/Sandwiches";
 import OfficailVariation from "./components/ThirdCollage/OfficailVariation";
 import NoneOfficailVariation from "./components/ThirdCollage/NoneOfficailVariation";
 import HappyExamples from "./components/SecondCollage/HappyExamples";
+import EcstaticExample from "./components/SecondCollage/EcstaticExample";
 
 const StyleDialog = withStyles(() => ({
     paper: {
@@ -91,6 +92,9 @@ export default function DialogBox({ showDialog, setShowDialog, dalogId, setDalog
                 )}
                 {dalogId === "HappyExamples" && (
                     <HappyExamples dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
+                )}
+                {dalogId === "EcstaticExample" && (
+                    <EcstaticExample dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
                 )}
             </StyleDialog>
         </React.Fragment>

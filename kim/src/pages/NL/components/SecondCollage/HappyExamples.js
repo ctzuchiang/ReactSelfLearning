@@ -52,7 +52,7 @@ export default function HappyExamples({ dalogId, setDalogId, setShowDialog }) {
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
                     previous={() => setDalogId("ColorSpecification")}
-                    next={() => setDalogId("ColorPallete")}
+                    next={() => setDalogId("EcstaticExample")}
                 />
             </DialogActions>
         </React.Fragment>
