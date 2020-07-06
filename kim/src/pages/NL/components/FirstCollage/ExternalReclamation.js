@@ -71,14 +71,14 @@ export default function ExternalReclamation({ dalogId, setDalogId, setShowDialog
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
                     <Box display="flex" width="23%" flexDirection="column">
                         <Typography
-                            style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                            style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
                         >
                             <b>Aruba</b>
                         </Typography>
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -90,14 +90,14 @@ export default function ExternalReclamation({ dalogId, setDalogId, setShowDialog
                     </Box>
                     <Box display="flex" width="23%" flexDirection="column">
                         <Typography
-                            style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                            style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
                         >
                             <b>Caribbean Kingdom</b>
                         </Typography>
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -109,14 +109,14 @@ export default function ExternalReclamation({ dalogId, setDalogId, setShowDialog
                     </Box>
                     <Box display="flex" width="23%" flexDirection="column">
                         <Typography
-                            style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                            style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
                         >
                             <b>Sint Maarten</b>
                         </Typography>
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -128,14 +128,14 @@ export default function ExternalReclamation({ dalogId, setDalogId, setShowDialog
                     </Box>
                     <Box display="flex" width="23%" flexDirection="column">
                         <Typography
-                            style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                            style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
                         >
                             <b>Curacao</b>
                         </Typography>
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >

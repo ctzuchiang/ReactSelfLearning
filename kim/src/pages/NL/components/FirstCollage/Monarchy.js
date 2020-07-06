@@ -48,10 +48,10 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                                     src="/pic/NL/monarchy/IMG_0058.png"
                                     alt=""
                                 />
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>Previous reigning monarch</b>
                                 </Typography>
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>Queen Beatrix</b>
                                 </Typography>
                             </Box>
@@ -66,10 +66,10 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                                     src="/pic/NL/monarchy/Image 23@2x.png"
                                     alt=""
                                 />
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>Next reigning monarch</b>
                                 </Typography>
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>Princess Catharina-Amalia</b>
                                 </Typography>
                             </Box>
@@ -97,17 +97,19 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                                     src="/pic/NL/monarchy/Rectangle 217@2x.png"
                                     alt=""
                                 />
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>Current reigning monarch</b>
                                 </Typography>
-                                <Typography style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}>
+                                <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                     <b>King Willem-Alexander</b>
                                 </Typography>
                             </Box>
                         </Box>
                     </Box>
                 </Box>
-                <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                <Typography
+                    style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                >
                     <b>How to have royalties</b>
                 </Typography>
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
@@ -115,7 +117,7 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -129,7 +131,7 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -143,7 +145,7 @@ export default function Monarchy({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}

@@ -10,7 +10,7 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>Logo do's and don'ts</b>
+                            <b>Monarchy references</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -18,7 +18,7 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#FFDCBF" padding="32px">
                     <Box
                         display="flex"
@@ -34,8 +34,8 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        maxHeight: "350px",
+                                        width: "400px",
+                                        maxHeight: "400px",
                                     }}
                                     src="/pic/NL/monarchy/Rectangle 244@2x.png"
                                     alt=""
@@ -45,16 +45,16 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
 
                         <Box paddingTop="16px">
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}
+                                style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
                                 <b>Our Example</b>
                             </Typography>
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
+                                style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
-                                <b>No crown is better, chicer and friendlier.</b>
+                                No crown is better, chicer and friendlier.
                             </Typography>
                         </Box>
                     </Box>
@@ -73,8 +73,8 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        maxHeight: "350px",
+                                        width: "400px",
+                                        maxHeight: "400px",
                                     }}
                                     src="/pic/NL/monarchy/Rectangle 243@2x.png"
                                     alt=""
@@ -83,16 +83,16 @@ export default function RoyalExampleOne({ dalogId, setDalogId, setShowDialog }) 
                         </Box>
                         <Box paddingTop="16px">
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}
+                                style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
                                 <b>Other Example</b>
                             </Typography>
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
+                                style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
-                                <b>Jewelry is a must, things that show the royal status necessary on many occasions.</b>
+                                Jewelry is a must, things that show the royal status necessary on many occasions.
                             </Typography>
                         </Box>
                     </Box>

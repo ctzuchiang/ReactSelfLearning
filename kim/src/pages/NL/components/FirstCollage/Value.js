@@ -40,7 +40,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                 </Box>
                 <Box display="flex" flexGrow={1} justifyContent="center" padding="0px 32px">
                     <Box display="flex" width="100%" justifyContent="space-between">
-                        <Box display="flex" flexDirection="column">
+                        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                             <Box maxWidth="70%">
                                 <img
                                     style={{ position: "relative", width: "100%" }}
@@ -48,7 +48,13 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                     alt=""
                                 />
                             </Box>
-                            <Box paddingTop="48px" display="flex" flexGrow={1} justifyContent="center" alignItems="flex-end">
+                            <Box
+                                paddingTop="48px"
+                                display="flex"
+                                flexGrow={1}
+                                justifyContent="center"
+                                alignItems="flex-end"
+                            >
                                 <Typography
                                     style={{
                                         color: "#094FA2",
@@ -60,9 +66,13 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 </Typography>
                             </Box>
                         </Box>
-                        <Box display="flex" flexDirection="column">
+                        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                             <Box maxWidth="70%">
-                                <img style={{ position: "relative", width: "100%"  }} src="/pic/NL/Value/1500_1700.png" alt="" />
+                                <img
+                                    style={{ position: "relative", width: "100%" }}
+                                    src="/pic/NL/Value/1500_1700.png"
+                                    alt=""
+                                />
                             </Box>
                             <Box display="flex" flexGrow={1} justifyContent="center" alignItems="flex-end">
                                 <Typography
@@ -76,9 +86,13 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 </Typography>
                             </Box>
                         </Box>
-                        <Box display="flex" flexDirection="column">
+                        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                             <Box maxWidth="70%">
-                                <img style={{ position: "relative", width: "100%"  }} src="/pic/NL/Value/1700_1900.png" alt="" />
+                                <img
+                                    style={{ position: "relative", width: "100%" }}
+                                    src="/pic/NL/Value/1700_1900.png"
+                                    alt=""
+                                />
                             </Box>
                             <Box display="flex" flexGrow={1} justifyContent="center" alignItems="flex-end">
                                 <Typography
@@ -92,9 +106,13 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                                 </Typography>
                             </Box>
                         </Box>
-                        <Box display="flex" flexDirection="column">
+                        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                             <Box maxWidth="70%">
-                                <img style={{ position: "relative", width: "100%"  }} src="/pic/NL/Value/1900_2000.png" alt="" />
+                                <img
+                                    style={{ position: "relative", width: "100%" }}
+                                    src="/pic/NL/Value/1900_2000.png"
+                                    alt=""
+                                />
                             </Box>
                             <Box display="flex" flexGrow={1} justifyContent="center" alignItems="flex-end">
                                 <Typography

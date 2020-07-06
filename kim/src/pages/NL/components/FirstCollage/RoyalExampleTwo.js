@@ -10,7 +10,7 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>Logo do's and don'ts</b>
+                            <b>Monarchy references</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -18,7 +18,7 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#FFDCBF" padding="32px">
                     <Box
                         display="flex"
@@ -34,8 +34,8 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        height: "350px",
+                                        width: "400px",
+                                        height: "400px",
                                     }}
                                     src="/pic/NL/monarchy/IMG_0063@2x.png"
                                     alt=""
@@ -45,18 +45,16 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
 
                         <Box paddingTop="16px">
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}
-                                align="center"
-                            >
-                                <b>Dutch example</b>
-                            </Typography>
-                            <Typography
                                 style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
-                                <b>
-                                    women can be the reigning monarch, too, and abdicate when she or he feels like it.
-                                </b>
+                                <b>Example</b>
+                            </Typography>
+                            <Typography
+                                style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
+                                align="center"
+                            >
+                                women can be the reigning monarch, too, and abdicate when she or he feels like it.
                             </Typography>
                         </Box>
                     </Box>
@@ -75,8 +73,8 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        maxHeight: "350px",
+                                        width: "400px",
+                                        maxHeight: "400px",
                                     }}
                                     src="/pic/NL/monarchy/tennou@2x.png"
                                     alt=""
@@ -85,16 +83,16 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                         </Box>
                         <Box paddingTop="16px">
                             <Typography
-                                style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}
-                                align="center"
-                            >
-                                <b>non-Dutch example</b>
-                            </Typography>
-                            <Typography
                                 style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
-                                <b>No male no kingdom, and a lifetime duty to be the spiritual leader of all.</b>
+                                <b>Other example</b>
+                            </Typography>
+                            <Typography
+                                style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
+                                align="center"
+                            >
+                                No male no kingdom, and a lifetime duty to be the spiritual leader of all.
                             </Typography>
                         </Box>
                     </Box>
