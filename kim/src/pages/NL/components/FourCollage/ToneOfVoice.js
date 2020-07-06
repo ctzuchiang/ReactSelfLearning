@@ -56,10 +56,10 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                 <b>enticing</b>
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>tolerant, liberal, diverse, respect</b>
+                                tolerant, liberal, diverse, respect
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>proud, confident, honest, innovative</b>
+                                proud, confident, honest, innovative
                             </Typography>
                             <Typography
                                 style={{
@@ -69,7 +69,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     paddingBottom: "32px",
                                 }}
                             >
-                                <b>gratis, korting, bonus, fresh smoothies,</b>
+                                gratis, korting, bonus, fresh smoothies,
                             </Typography>
                         </Box>
                         <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
@@ -85,10 +85,10 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                 <b>boring</b>
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
-                                <b>petty, restrictive, fanatical, rude</b>
+                                petty, restrictive, fanatical, rude
                             </Typography>
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>devious, modest, subdue, conservative</b>
+                                devious, modest, subdue, conservative
                             </Typography>
                             <Typography
                                 style={{
@@ -97,7 +97,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                                <b>original price, one and two-cent coins, Heineken</b>
+                                original price, one and two-cent coins, Heineken
                             </Typography>
                         </Box>
                     </Box>
