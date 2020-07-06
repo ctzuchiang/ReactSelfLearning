@@ -25,7 +25,7 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                             In order to protect our political identity, our people should dress according to the
                             national taste. People who wear other styles of dress will become fools, and that nation
                             will come to ruin.
-                       </b>
+                        </b>
                     </DialogContentText>
                 </Box>
                 <Box
@@ -53,7 +53,13 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
                 <Typography
-                    style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0, padding: "8px 0px" }}
+                    style={{
+                        color: "#094FA2",
+                        fontSize: "20px",
+                        WebkitTextStrokeWidth: 0,
+                        padding: "8px 0px",
+                        fontWeight: "semi-bold",
+                    }}
                 >
                     Regulations
                 </Typography>
@@ -62,49 +68,49 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                                1. We show our allegiance by wearing the loyalty badge next to the chest. Demonized
-                                western clothing, such as jeans are prohibited.
+                            1. We show our allegiance by wearing the loyalty badge next to the chest. Demonized western
+                            clothing, such as jeans are prohibited.
                         </Typography>
                     </Box>
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                                2. We do not get lost in fashion, and if we do, we will go for military chic to
-                                represent our nation. We only wear locally branded items of clothing because possessing
-                                demonized western-branded product is a severe felony.
+                            2. We do not get lost in fashion, and if we do, we will go for military chic to represent
+                            our nation. We only wear locally branded items of clothing because possessing demonized
+                            western-branded product is a severe felony.
                         </Typography>
                     </Box>
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                                3. Our Great Successor ban women from wearing trousers. Women are only allowed to wear
-                                skirts in our nation. No question allowed!
+                            3. Our Great Successor ban women from wearing trousers. Women are only allowed to wear
+                            skirts in our nation. No question allowed!
                         </Typography>
                     </Box>
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                                4. Dirty shoes mean capitalism and corruption. We cannot demise our country with dirty
-                                shoes, so we always polish our shoes until it shines.
+                            4. Dirty shoes mean capitalism and corruption. We cannot demise our country with dirty
+                            shoes, so we always polish our shoes until it shines.
                         </Typography>
                     </Box>
                 </Box>

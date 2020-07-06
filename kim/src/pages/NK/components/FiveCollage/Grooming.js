@@ -49,7 +49,7 @@ export default function Grooming({ dalogId, setDalogId, setShowDialog }) {
                             alignItems="center"
                         >
                             <img style={{ position: "relative", width: "100%" }} src="/pic/NK/attire/5.png" alt="" />
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 *men over 50 may grow their hair length to 7cm on top to hide their bald spots.
                             </Typography>
                         </Box>
