@@ -10,7 +10,7 @@ export default function SymbolExample({ dalogId, setDalogId, setShowDialog }) {
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>usage example</b>
+                            <b>Usage example</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -18,7 +18,7 @@ export default function SymbolExample({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#D9F0EF" padding="48px">
                     <Box
                         display="flex"
@@ -43,14 +43,12 @@ export default function SymbolExample({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>official documents</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>
-                                    We are still questioning our legal status and our name is still confusing to many
-                                    people. However, we have to keep the status quo in order to be accepted.
-                                </b>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                We are still questioning our legal status and our name is still confusing to many
+                                people. However, we have to keep the status quo in order to be accepted.
                             </Typography>
                         </Box>
                     </Box>
@@ -75,14 +73,12 @@ export default function SymbolExample({ dalogId, setDalogId, setShowDialog }) {
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>international events</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>
-                                    We are still questioning our legal status, and our name is still confusing to many
-                                    people. However, we have to keep the status quo to be accepted.
-                                </b>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                We are still questioning our legal status, and our name is still confusing to many
+                                people. However, we have to keep the status quo to be accepted.
                             </Typography>
                         </Box>
                     </Box>
@@ -90,7 +86,8 @@ export default function SymbolExample({ dalogId, setDalogId, setShowDialog }) {
             </DialogContent>
             <DialogActions>
                 <DialogActionGroup
-                    setShowDialog={setShowDialog}s
+                    setShowDialog={setShowDialog}
+                    s
                     previous={() => setDalogId("Symbol")}
                     next={() => setDalogId("PoliticalFigures")}
                 />

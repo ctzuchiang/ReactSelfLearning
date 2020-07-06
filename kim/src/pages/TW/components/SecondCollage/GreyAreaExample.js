@@ -18,7 +18,7 @@ export default function GreyAreaExample({ dalogId, setDalogId, setShowDialog }) 
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#D9F0EF" padding="48px" flexDirection="column">
                     <Box display="flex" flexGrow={1}>
                         <Box
@@ -64,15 +64,13 @@ export default function GreyAreaExample({ dalogId, setDalogId, setShowDialog }) 
                             flexDirection="column"
                             width="60%"
                         >
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>political rallies</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
-                                <b>
-                                    According to law, we are not supposed to put anything on our flag, but some
-                                    political supporters prefer to express their affection by being creative with the
-                                    appearances of the national symbol.
-                                </b>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
+                                According to law, we are not supposed to put anything on our flag, but some political
+                                supporters prefer to express their affection by being creative with the appearances of
+                                the national symbol.
                             </Typography>
                         </Box>
                     </Box>
