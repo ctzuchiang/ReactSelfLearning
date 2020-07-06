@@ -18,6 +18,7 @@ import Frugality from "./components/FiveCollage/Frugality";
 import Sandwiches from "./components/FiveCollage/Sandwiches";
 import OfficailVariation from "./components/ThirdCollage/OfficailVariation";
 import NoneOfficailVariation from "./components/ThirdCollage/NoneOfficailVariation";
+import HappyExamples from "./components/SecondCollage/HappyExamples";
 
 const StyleDialog = withStyles(() => ({
     paper: {
@@ -87,6 +88,9 @@ export default function DialogBox({ showDialog, setShowDialog, dalogId, setDalog
                 )}
                 {dalogId === "NoneOfficailVariation" && (
                     <NoneOfficailVariation dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
+                )}
+                {dalogId === "HappyExamples" && (
+                    <HappyExamples dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
                 )}
             </StyleDialog>
         </React.Fragment>

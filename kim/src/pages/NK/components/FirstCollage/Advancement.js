@@ -72,11 +72,10 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
-                                UTC+8:30
+                                <b>UTC+8:30</b>
                             </Typography>
                             <Typography
                                 style={{
@@ -95,11 +94,10 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
-                                Recreational drugs
+                                <b>Recreational drugs</b>
                             </Typography>
                             <Typography
                                 style={{
@@ -119,11 +117,10 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
-                                100% literacy rate
+                                <b>100% literacy rate</b>
                             </Typography>
                             <Typography
                                 style={{
@@ -142,11 +139,10 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
-                                No.1 Safety
+                                <b>No.1 Safety</b>
                             </Typography>
                             <Typography
                                 style={{

@@ -169,7 +169,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
             <DialogActions>
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
-                    previous={() => setDalogId("ColorSpecification")}
+                    previous={() => setDalogId("HappyExamples")}
                     next={() => setDalogId("ShadesVariation")}
                 />
             </DialogActions>

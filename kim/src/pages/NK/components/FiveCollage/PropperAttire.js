@@ -58,10 +58,9 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                         fontSize: "20px",
                         WebkitTextStrokeWidth: 0,
                         padding: "8px 0px",
-                        fontWeight: "semi-bold",
                     }}
                 >
-                    Regulations
+                    <b>Regulations</b>
                 </Typography>
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">

@@ -45,7 +45,7 @@ export default function ColorSpecification({ dalogId, setDalogId, setShowDialog 
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
                     previous={() => setDalogId("ShadesVariation")}
-                    next={() => setDalogId("ColorPallete")}
+                    next={() => setDalogId("HappyExamples")}
                 />
             </DialogActions>
         </React.Fragment>
