@@ -10,7 +10,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                 <Box display="flex" width="85vw">
                     <Box style={{ flexGrow: 1 }}>
                         <Typography style={{ color: "#094FA2", fontSize: "60px", WebkitTextStrokeWidth: 0 }}>
-                            <b>Officai variation</b>
+                            <b>Officai variations</b>
                         </Typography>
                     </Box>
                     <Box display="flex">
@@ -34,8 +34,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "70%",
-                                        
+                                        width: "80%",
                                     }}
                                     src="/pic/NL/coat of arms/Image 4.png"
                                     alt=""
@@ -45,8 +44,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "70%",
-                                        
+                                        width: "80%",
                                     }}
                                     src="/pic/NL/coat of arms/Image 7.png"
                                     alt=""
@@ -56,8 +54,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "70%",
-                                        
+                                        width: "80%",
                                     }}
                                     src="/pic/NL/coat of arms/Image 5.png"
                                     alt=""
@@ -67,8 +64,7 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "70%",
-                                        
+                                        width: "80%",
                                     }}
                                     src="/pic/NL/coat of arms/Image 6.png"
                                     alt=""
@@ -79,37 +75,35 @@ export default function OfficailVariation({ dalogId, setDalogId, setShowDialog }
                         <Box paddingTop="32px" display="flex" justifyContent="space-between">
                             <Box display="flex" width="23%">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>
-                                        1. The stylized version that is used as graphic identities by all government
-                                        branches
-                                    </b>
+                                    1. The stylized version that is used as graphic identities by all government
+                                    branches
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>2.The simplified version that is used by states general (parliament).</b>
+                                    2.The simplified version that is used by states general (parliament).
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>3. The simplified version that is used by senates.</b>
+                                    3. The simplified version that is used by senates.
                                 </Typography>
                             </Box>
                             <Box display="flex" width="23%">
                                 <Typography
-                                    style={{ color: "#094FA2", fontSize: "18px", WebkitTextStrokeWidth: 0 }}
+                                    style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
                                     align="center"
                                 >
-                                    <b>4.The simplified version that is used by the house of representatives.</b>
+                                    4.The simplified version that is used by the house of representatives.
                                 </Typography>
                             </Box>
                         </Box>
