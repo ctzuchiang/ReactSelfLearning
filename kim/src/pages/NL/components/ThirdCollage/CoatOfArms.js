@@ -46,10 +46,9 @@ export default function CoatOfArms({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "60%",
-                                        maxHeight: "320px",
+                                        width: "50%",
                                     }}
-                                    src="/pic/NK/emblem/emblem.png"
+                                    src="/pic/NL/coat of arms/Image 8@2x.png"
                                     alt=""
                                 />
                             </Box>

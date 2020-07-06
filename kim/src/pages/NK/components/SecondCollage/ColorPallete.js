@@ -69,6 +69,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                             color: "#FFFFFF",
                                             fontSize: "20px",
                                             WebkitTextStrokeWidth: 0,
+                                            marginBottom: "32px",
                                         }}
                                     >
                                         The workers, peasants and intelligentsia yellow
@@ -104,6 +105,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         color: "#FFFFFF",
                                         fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
+                                        marginBottom: "32px",
                                     }}
                                 >
                                     sovereignty, peace and friendship blue
@@ -124,6 +126,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         color: "#BBBBBB",
                                         fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
+                                        marginBottom: "32px",
                                     }}
                                 >
                                     purity, strength and dignity white
@@ -144,6 +147,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         color: "#FFFFFF",
                                         fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
+                                        marginBottom: "32px",
                                     }}
                                 >
                                     communist revolution red
