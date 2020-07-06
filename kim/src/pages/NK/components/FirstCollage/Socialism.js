@@ -25,7 +25,7 @@ export default function Socialism({ dalogId, setDalogId, setShowDialog }) {
                         height="300px"
                         src="/pic/NK/social.png"
                         alt=""
-                        style={{ position: "relative" }}
+                        style={{ position: "relative", padding: "3% 0px" }}
                     />
                     <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                         <b>
@@ -33,13 +33,13 @@ export default function Socialism({ dalogId, setDalogId, setShowDialog }) {
                             thought. The great leader developed the original and brilliant Juche Ideology for our people
                             and the world. We achieve pure socialism and become powerful and self-reliant by only acting
                             according to the masters of revolutions and construction.
-                       </b>
+                        </b>
                     </Typography>
                 </Box>
                 <Typography
                     style={{
                         color: "#094FA2",
-                        fontSize: "30px",
+                        fontSize: "25px",
                         WebkitTextStrokeWidth: 0,
                         padding: "12px 0px",
                     }}
