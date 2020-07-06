@@ -29,8 +29,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                     </DialogContentText>
                 </Box>
                 <Box
-                    padding="32px"
-                    marginTop="-12px"
+                    padding="24px 32px"
                     bgcolor="#FFDCBF"
                     display="flex"
                     flexGrow={1}
@@ -44,7 +43,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                             justifyContent="space-between"
                             alignItems="center"
                             paddingRight="2.25vw"
-                            borderRight="2px solid #094FA2"
+                            borderRight="1px solid #094FA2"
                         >
                             <img
                                 style={{ position: "relative", width: "30%" }}
@@ -68,7 +67,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                             justifyContent="space-between"
                             alignItems="center"
                             paddingRight="2.25vw"
-                            borderRight="2px solid #094FA2"
+                            borderRight="1px solid #094FA2"
                         >
                             <img
                                 style={{ position: "relative", width: "30%" }}
