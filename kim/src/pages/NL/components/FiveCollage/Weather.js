@@ -18,7 +18,7 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
+            <DialogContent>
                 <Box maxWidth="50%" paddingBottom="8px">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
@@ -31,7 +31,6 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                 </Box>
                 <Box
                     padding="16px 32px"
-                    marginTop="-12px"
                     bgcolor="#FFDCBF"
                     display="flex"
                     flexGrow={1}
@@ -69,13 +68,22 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
                     </Box>
                 </Box>
-
-                <Box display="flex" flexGrow={1} justifyContent="space-between" marginTop="12px">
+                <Typography
+                    style={{
+                        color: "#094FA2",
+                        fontSize: "20px",
+                        WebkitTextStrokeWidth: 0,
+                        padding: "8px 0px",
+                    }}
+                >
+                    <b>How to survive</b>
+                </Typography>
+                <Box display="flex" flexGrow={1} justifyContent="space-between">
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -87,7 +95,7 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -100,7 +108,7 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -113,7 +121,7 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
