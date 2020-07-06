@@ -34,7 +34,7 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "25px",
+                                    fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
                                     paddingBottom: "25px",
                                 }}

@@ -34,13 +34,24 @@ export default function SecondCollageMenu({ dalogId, setDalogId }) {
             setDalogId(selected);
         }
     };
+
+    const [ColorSpecificationSelected, setColorSpecificationSelected] = React.useState(false);
+
+    React.useEffect(() => {
+        if (dalogId === "ColorSpecification" || dalogId === "UnquestionableUsageExample") {
+            setColorSpecificationSelected(true);
+        } else {
+            setColorSpecificationSelected(false);
+        }
+    }, [dalogId]);
+
     return (
         <React.Fragment>
             <ToggleButtonGroup exclusive value={dalogId} onChange={handleToggleChange}>
                 <DailogToggleButton value="ColorPallete">
                     <b>Color Pallete</b>
                 </DailogToggleButton>
-                <DailogToggleButton value="ColorSpecification">
+                <DailogToggleButton selected={ColorSpecificationSelected} value="ColorSpecification">
                     <b>Color Specification</b>
                 </DailogToggleButton>
             </ToggleButtonGroup>

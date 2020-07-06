@@ -19,6 +19,7 @@ import SanSerifExampleTwo from "./components/FourCollage/SanSerifExampleTwo";
 import ToneOfVoice from "./components/FiveCollage/ToneOfVoice";
 import PropperAttire from "./components/FiveCollage/PropperAttire";
 import Grooming from "./components/FiveCollage/Grooming";
+import UnquestionableUsageExample from "./components/SecondCollage/UnquestionableUsageExample";
 
 const StyleDialog = withStyles(() => ({
     paper: {
@@ -89,6 +90,13 @@ export default function DialogBox({ showDialog, setShowDialog, dalogId, setDalog
                 )}
                 {dalogId === "Grooming" && (
                     <Grooming dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
+                )}
+                {dalogId === "UnquestionableUsageExample" && (
+                    <UnquestionableUsageExample
+                        dalogId={dalogId}
+                        setDalogId={setDalogId}
+                        setShowDialog={setShowDialog}
+                    />
                 )}
             </StyleDialog>
         </React.Fragment>
