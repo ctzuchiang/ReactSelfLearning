@@ -34,8 +34,8 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        // maxHeight: "350px",
+                                        width: "20vw",
+                                        maxHeight: "45vh",
                                     }}
                                     src="/pic/NK/emblem/passport.png"
                                     alt=""
@@ -45,8 +45,8 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "320px",
-                                        maxHeight: "450px",
+                                        width: "20vw",
+                                        maxHeight: "45vh",
                                     }}
                                     src="/pic/NK/emblem/passport2.png"
                                     alt=""
@@ -79,18 +79,16 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                         justifyContent="center"
                         // alignItems="center"
                     >
-                        <Box display="flex" justifyContent="center" alignItems="center">
-                            <Box width="80%" display="flex" justifyContent="center" alignItems="center">
-                                <img
-                                    style={{
-                                        position: "relative",
-                                        width: "500px",
-                                        maxHeight: "450px",
-                                    }}
-                                    src="/pic/NK/emblem/embassy.png"
-                                    alt=""
-                                />
-                            </Box>
+                        <Box width="100%" display="flex" justifyContent="center" alignItems="center">
+                            <img
+                                style={{
+                                    position: "relative",
+                                    width: "30vw",
+                                    maxHeight: "45vh",
+                                }}
+                                src="/pic/NK/emblem/embassy.png"
+                                alt=""
+                            />
                         </Box>
                         <Box paddingTop="16px">
                             <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
