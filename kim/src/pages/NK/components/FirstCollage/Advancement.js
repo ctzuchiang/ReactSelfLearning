@@ -24,7 +24,7 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                         <b>
                             People are jealous of our nation and our leader. Our enemy and other capitalist states use
                             rumors to belittle our existence! We must call them out and state the facts!
-                       </b>
+                        </b>
                     </DialogContentText>
                 </Box>
                 <Box
@@ -38,28 +38,28 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                     <Box display="flex" flexGrow={1} justifyContent="space-between">
                         <Box display="flex" width="25%" justifyContent="center" alignItems="center">
                             <img
-                                style={{ position: "relative", width: "205px", height: "205px" }}
+                                style={{ position: "relative", width: "170px", height: "170px" }}
                                 src="/pic/NK/advancement/clock.png"
                                 alt=""
                             />
                         </Box>
                         <Box display="flex" width="25%" justifyContent="center">
                             <img
-                                style={{ position: "relative", width: "70%" }}
+                                style={{ position: "relative", width: "170px" }}
                                 src="/pic/NK/advancement/jonko.png"
                                 alt=""
                             />
                         </Box>
                         <Box display="flex" width="25%" justifyContent="center">
                             <img
-                                style={{ position: "relative", width: "70%" }}
+                                style={{ position: "relative", width: "170px" }}
                                 src="/pic/NK/advancement/book.png"
                                 alt=""
                             />
                         </Box>
                         <Box display="flex" width="25%" justifyContent="center">
                             <img
-                                style={{ position: "relative", width: "70%" }}
+                                style={{ position: "relative", width: "170px" }}
                                 src="/pic/NK/advancement/mil.png"
                                 alt=""
                             />
@@ -70,8 +70,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "25px",
+                                    fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
@@ -80,8 +81,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -92,8 +94,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "25px",
+                                    fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
@@ -102,8 +105,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -115,8 +119,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "25px",
+                                    fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
@@ -125,8 +130,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -137,8 +143,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "25px",
+                                    fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "semi-bold",
                                 }}
                                 align="center"
                             >
@@ -147,8 +154,9 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "18px",
+                                    fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >

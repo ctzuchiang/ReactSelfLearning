@@ -47,7 +47,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                     leaders pass on purity and invincible might to us, and these spirits run in every
                                     aspect of our life. Our leader is leading us to prosperity and bringing peace to the
                                     world!
-                               </b>
+                                </b>
                             </DialogContentText>
                         </Box>
 
@@ -71,8 +71,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                             WebkitTextStrokeWidth: 0,
                                         }}
                                     >
-                                        The workers, peasants <br />
-                                        and intelligentsia yellow
+                                        The workers, peasants and intelligentsia yellow
                                     </Typography>
                                     <Typography
                                         style={{
@@ -107,8 +106,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                 >
-                                    sovereignty, peace <br />
-                                    and friendship blue
+                                    sovereignty, peace and friendship blue
                                 </Typography>
                                 <Typography
                                     style={{
@@ -128,8 +126,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                 >
-                                    purity, strength, <br />
-                                    and dignity white
+                                    purity, strength and dignity white
                                 </Typography>
                                 <Typography
                                     style={{
@@ -149,8 +146,7 @@ export default function ColorPallete({ dalogId, setDalogId, setShowDialog }) {
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                 >
-                                    communist <br />
-                                    revolution red
+                                    communist revolution red
                                 </Typography>
                                 <Typography
                                     style={{

@@ -25,7 +25,7 @@ export default function Socialism({ dalogId, setDalogId, setShowDialog }) {
                         height="300px"
                         src="/pic/NK/social.png"
                         alt=""
-                        style={{ position: "relative", padding: "3% 0px" }}
+                        style={{ position: "relative" }}
                     />
                     <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                         <b>
@@ -39,7 +39,7 @@ export default function Socialism({ dalogId, setDalogId, setShowDialog }) {
                 <Typography
                     style={{
                         color: "#094FA2",
-                        fontSize: "25px",
+                        fontSize: "20px",
                         WebkitTextStrokeWidth: 0,
                         padding: "12px 0px",
                     }}

@@ -26,7 +26,7 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                                 We are atheists and do not believe in spirituality. Our enchantments only reserved for
                                 the great leader and the Mount Baekdu bloodline. They are more than the leader to us.
                                 They are our gods.
-                           </b>
+                            </b>
                         </DialogContentText>
                     </Box>
                     <Box maxWidth="50%" paddingLeft="12px">
@@ -34,7 +34,7 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                             <Typography
                                 style={{
                                     color: "#094FA2",
-                                    fontSize: "30px",
+                                    fontSize: "25px",
                                     WebkitTextStrokeWidth: 0,
                                     paddingBottom: "25px",
                                 }}
@@ -47,10 +47,8 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                                     fontSize: "20px",
                                 }}
                             >
-                                <b>
-                                    The Supreme Leader invented the Minju Joson, a brand-new sandwich called doubled
-                                    bread with meat.
-                               </b>
+                                The Supreme Leader invented the Minju Joson, a brand-new sandwich called doubled bread
+                                with meat.
                             </DialogContentText>
                             <DialogContentText
                                 style={{
@@ -58,10 +56,8 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                                     fontSize: "20px",
                                 }}
                             >
-                                <b>
-                                    Only mortals use the toilet. The Mount Baekdu bloodline does not need to urinate or
-                                    defecate.
-                               </b>
+                                Only mortals use the toilet. The Mount Baekdu bloodline does not need to urinate or
+                                defecate.
                             </DialogContentText>
                             <DialogContentText
                                 style={{
@@ -69,9 +65,7 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                                     fontSize: "20px",
                                 }}
                             >
-                                <b>
-                                    The Great successor reclaims time (30 minutes) back from the Japanese colonization.
-                               </b>
+                                The Great successor reclaims time (30 minutes) back from the Japanese colonization.
                             </DialogContentText>
                             <DialogContentText
                                 style={{
@@ -79,16 +73,12 @@ export default function Religion({ dalogId, setDalogId, setShowDialog }) {
                                     fontSize: "20px",
                                 }}
                             >
-                                <b>
-                                    The Supreme Commander was born on Mount Baekdu. At the moment of his birth, a new
-                                    star formed and illuminated the sky.
-                               </b>
+                                The Supreme Commander was born on Mount Baekdu. At the moment of his birth, a new star
+                                formed and illuminated the sky.
                             </DialogContentText>
                             <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
-                                <b>
-                                    The Great Successor is an international fashion icon. People adore his hairstyle and
-                                    copied it everywhere
-                               </b>
+                                The Great Successor is an international fashion icon. People adore his hairstyle and
+                                copied it everywhere
                             </DialogContentText>
                         </Box>
                     </Box>
