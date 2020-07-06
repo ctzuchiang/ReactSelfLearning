@@ -83,7 +83,6 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -107,7 +106,6 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -132,7 +130,6 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >
@@ -156,7 +153,6 @@ export default function Advancement({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "12px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                                 align="center"
                             >

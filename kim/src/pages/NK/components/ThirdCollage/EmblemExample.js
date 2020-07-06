@@ -63,10 +63,9 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                             >
-                                <b>passports</b>
+                                passports
                             </Typography>
                         </Box>
                     </Box>
@@ -102,10 +101,9 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "15px",
                                     WebkitTextStrokeWidth: 0,
-                                    fontWeight: "regular",
                                 }}
                             >
-                                <b>Embassy main entrance</b>
+                                Embassy main entrance
                             </Typography>
                         </Box>
                     </Box>
