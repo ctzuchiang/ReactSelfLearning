@@ -43,7 +43,7 @@ export default function FourTypography({ dalogId, setDalogId, setShowDialog }) {
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
                     previous={() => setDalogId("ToneOfVoice")}
-                    next={() => setDalogId("Sports")}
+                    next={() => setDalogId("ToneOfVoice")}
                 />
             </DialogActions>
         </React.Fragment>

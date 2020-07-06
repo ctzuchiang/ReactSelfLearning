@@ -106,7 +106,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
             <DialogActions>
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
-                    previous={() => setDalogId("Sports")}
+                    previous={() => setDalogId("FourTypography")}
                     next={() => setDalogId("FourTypography")}
                 />
             </DialogActions>

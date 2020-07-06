@@ -9,7 +9,6 @@ import ColorPallete from "./components/SecondCollage/ColorPallete";
 import ColorSpecification from "./components/SecondCollage/ColorSpecification";
 import ShadesVariation from "./components/SecondCollage/ShadesVariation";
 import CoatOfArms from "./components/ThirdCollage/CoatOfArms";
-import Sports from "./components/FourCollage/Sports";
 import FourTypography from "./components/FourCollage/FourTypography";
 import ToneOfVoice from "./components/FourCollage/ToneOfVoice";
 import Weather from "./components/FiveCollage/Weather";
@@ -62,9 +61,6 @@ export default function DialogBox({ showDialog, setShowDialog, dalogId, setDalog
                 )}
                 {dalogId === "CoatOfArms" && (
                     <CoatOfArms dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
-                )}
-                {dalogId === "Sports" && (
-                    <Sports dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
                 )}
                 {dalogId === "FourTypography" && (
                     <FourTypography dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />

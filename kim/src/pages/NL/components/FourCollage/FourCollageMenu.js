@@ -38,9 +38,6 @@ export default function FourCollageMenu({ dalogId, setDalogId }) {
     return (
         <React.Fragment>
             <ToggleButtonGroup exclusive value={dalogId} onChange={handleToggleChange}>
-                <DailogToggleButton value="Sports">
-                    <b>Sports</b>
-                </DailogToggleButton>
                 <DailogToggleButton value="ToneOfVoice">
                     <b>Tone of Voice</b>
                 </DailogToggleButton>

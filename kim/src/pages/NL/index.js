@@ -157,7 +157,7 @@ export default function NL() {
                     class="typo_pic"
                     style={{ cursor: "pointer" }}
                     onClick={() => {
-                        setDalogId("Sports");
+                        setDalogId("ToneOfVoice");
                         setShowDialog(true);
                     }}
                 >
