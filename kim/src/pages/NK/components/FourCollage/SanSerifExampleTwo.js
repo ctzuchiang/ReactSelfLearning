@@ -23,7 +23,7 @@ export default function SanSerifExampleTwo({ dalogId, setDalogId, setShowDialog 
                     <img
                         style={{
                             position: "relative",
-                            width: "82%",
+                            width: "70%",
                         }}
                         src="/pic/NK/typo/typo1.png"
                         alt=""
