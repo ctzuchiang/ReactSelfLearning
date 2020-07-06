@@ -48,7 +48,7 @@ export default function RoyalExampleTwo({ dalogId, setDalogId, setShowDialog }) 
                                 style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}
                                 align="center"
                             >
-                                <b>Example</b>
+                                <b>Our example</b>
                             </Typography>
                             <Typography
                                 style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}
