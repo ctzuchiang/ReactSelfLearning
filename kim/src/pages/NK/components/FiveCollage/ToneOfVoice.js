@@ -33,7 +33,10 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                         display="flex"
                         maxWidth="50%"
                         bgcolor="#FDD1D3"
-                        padding="32px"
+                        paddingTop="7vh"
+                        paddingBottom="7vh"
+                        paddingLeft="32px"
+                        paddingRight="32px"
                         flexDirection="column"
                         flexGrow={1}
                     >
@@ -61,7 +64,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                             Genuine, Loyal, Passionate
+                                Genuine, Loyal, Passionate
                             </Typography>
                             <Typography
                                 style={{
@@ -70,17 +73,17 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                             prosperity, leadership, admiration, equality
+                                prosperity, leadership, admiration, equality
                             </Typography>
                             <Typography
                                 style={{
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingBottom: "32px",
+                                    paddingBottom: "7vh",
                                 }}
                             >
-                             power, re-education, united, culture,
+                                power, re-education, united, culture,
                             </Typography>
                         </Box>
                         <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
@@ -89,7 +92,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "18px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingTop: "32px",
+                                    paddingTop: "7vh",
                                     paddingBottom: "32px",
                                 }}
                             >
@@ -102,7 +105,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                           Acting, Obedient, Passive
+                                Acting, Obedient, Passive
                             </Typography>
                             <Typography
                                 style={{
@@ -111,7 +114,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                               famine, dictatorship, cult, peripheral
+                                famine, dictatorship, cult, peripheral
                             </Typography>
                             <Typography
                                 style={{
@@ -120,7 +123,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     WebkitTextStrokeWidth: 0,
                                 }}
                             >
-                             hostile, gulag, sheep, brain-washing
+                                hostile, gulag, sheep, brain-washing
                             </Typography>
                         </Box>
                     </Box>

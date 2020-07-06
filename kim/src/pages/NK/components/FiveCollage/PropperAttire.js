@@ -18,8 +18,8 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
-                <Box maxWidth="50%" paddingBottom="8px">
+            <DialogContent>
+                <Box maxWidth="50%">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
                             In order to protect our political identity, our people should dress according to the
@@ -29,8 +29,7 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                     </DialogContentText>
                 </Box>
                 <Box
-                    padding="16px 32px"
-                    marginTop="-12px"
+                    padding="32px"
                     bgcolor="#FDD1D3"
                     display="flex"
                     flexGrow={1}
@@ -71,7 +70,7 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                            1. We show our allegiance by wearing the loyalty badge next to the chest. Demonized western
+                            We show our allegiance by wearing the loyalty badge next to the chest. Demonized western
                             clothing, such as jeans are prohibited.
                         </Typography>
                     </Box>
@@ -83,8 +82,8 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                            2. We do not get lost in fashion, and if we do, we will go for military chic to represent
-                            our nation. We only wear locally branded items of clothing because possessing demonized
+                            We do not get lost in fashion, and if we do, we will go for military chic to represent our
+                            nation. We only wear locally branded items of clothing because possessing demonized
                             western-branded product is a severe felony.
                         </Typography>
                     </Box>
@@ -96,8 +95,8 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                            3. Our Great Successor ban women from wearing trousers. Women are only allowed to wear
-                            skirts in our nation. No question allowed!
+                            Our Great Successor ban women from wearing trousers. Women are only allowed to wear skirts
+                            in our nation. No question allowed!
                         </Typography>
                     </Box>
                     <Box display="flex" width="23%" alignItems="center" flexDirection="column">
@@ -108,8 +107,8 @@ export default function PropperAttire({ dalogId, setDalogId, setShowDialog }) {
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
-                            4. Dirty shoes mean capitalism and corruption. We cannot demise our country with dirty
-                            shoes, so we always polish our shoes until it shines.
+                            Dirty shoes mean capitalism and corruption. We cannot demise our country with dirty shoes,
+                            so we always polish our shoes until it shines.
                         </Typography>
                     </Box>
                 </Box>

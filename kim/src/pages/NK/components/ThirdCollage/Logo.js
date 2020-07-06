@@ -18,7 +18,7 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex">
                     <Box flexGrow={1} width="50%" maxWidth="50%" marginRight="12px">
                         <Box>
@@ -33,14 +33,13 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                         <Box
                             display="flex"
                             bgcolor="#FDD1D3"
-                            padding="12px 64px 24px 64px"
+                            padding="24px 64px"
                             justifyContent="space-between"
                             marginBottom="8px"
                         >
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        padding: "16px 0px",
                                         position: "relative",
                                         width: "80%",
                                         maxHeight: "300px",
@@ -58,7 +57,6 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        padding: "16px 0px",
                                         position: "relative",
                                         width: "80%",
                                         maxHeight: "300px",

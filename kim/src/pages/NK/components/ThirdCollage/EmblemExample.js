@@ -18,7 +18,7 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#FDD1D3" padding="32px">
                     <Box
                         display="flex"
@@ -34,7 +34,7 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "360px",
+                                        width: "350px",
                                         // maxHeight: "350px",
                                     }}
                                     src="/pic/NK/emblem/passport.png"
@@ -45,7 +45,7 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "340px",
+                                        width: "320px",
                                         maxHeight: "450px",
                                     }}
                                     src="/pic/NK/emblem/passport2.png"

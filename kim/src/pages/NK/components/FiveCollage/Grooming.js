@@ -18,7 +18,7 @@ export default function Grooming({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
+            <DialogContent>
                 <Box maxWidth="50%" paddingBottom="8px">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
@@ -30,7 +30,6 @@ export default function Grooming({ dalogId, setDalogId, setShowDialog }) {
                 </Box>
                 <Box
                     padding="48px 64px"
-                    marginTop="-12px"
                     bgcolor="#FDD1D3"
                     display="flex"
                     flexGrow={1}

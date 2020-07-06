@@ -25,10 +25,18 @@ export default function FourTypography({ dalogId, setDalogId, setShowDialog }) {
                             Our mono-culture and leadership have to reflect on the written format as well. By only using
                             Chosongul script, we have to deliver our leader’s message and emotion across to every member
                             of the community.
-                       </b>
+                        </b>
                     </DialogContentText>
                 </Box>
-                <Box display="flex" justifyContent="center" bgcolor="#FDD1D3" padding="96px" marginTop="24px">
+                <Box
+                    display="flex"
+                    height="25vh"
+                    justifyContent="center"
+                    bgcolor="#FDD1D3"
+                    padding="96px"
+                    marginTop="24px"
+                    alignItems="center"
+                >
                     <Box>
                         <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                             <b>Our typography has to be</b>

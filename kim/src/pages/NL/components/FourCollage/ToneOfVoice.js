@@ -34,7 +34,10 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                         display="flex"
                         maxWidth="50%"
                         bgcolor="#FFDCBF"
-                        padding="32px"
+                        paddingTop="7vh"
+                        paddingBottom="7vh"
+                        paddingLeft="32px"
+                        paddingRight="32px"
                         flexDirection="column"
                         flexGrow={1}
                     >
@@ -66,7 +69,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingBottom: "32px",
+                                    paddingBottom: "7vh",
                                 }}
                             >
                                 gratis, korting, bonus, fresh smoothies,
@@ -78,7 +81,7 @@ export default function ToneOfVoice({ dalogId, setDalogId, setShowDialog }) {
                                     color: "#094FA2",
                                     fontSize: "20px",
                                     WebkitTextStrokeWidth: 0,
-                                    paddingTop: "32px",
+                                    paddingTop: "7vh",
                                     paddingBottom: "32px",
                                 }}
                             >

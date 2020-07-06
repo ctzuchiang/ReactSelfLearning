@@ -18,7 +18,7 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-28px" }}>
+            <DialogContent>
                 <Box display="flex" bgcolor="#FDD1D3" padding="32px">
                     <Box
                         display="flex"
@@ -34,8 +34,8 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        height: "350px",
+                                        width: "400px",
+                                        height: "400px",
                                     }}
                                     src="/pic/NK/LOGO/good_logo_two.png"
                                     alt=""
@@ -67,8 +67,8 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "350px",
-                                        maxHeight: "350px",
+                                        width: "400px",
+                                        maxHeight: "400px",
                                     }}
                                     src="/pic/NK/LOGO/bad_logo_two.png"
                                     alt=""
