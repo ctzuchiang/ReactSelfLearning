@@ -25,12 +25,12 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                             The great leader is the impeccable brain of our living body, and the party is our nerves.
                             The leader and the party are giving us life in exchange for loyalty. Without them, we become
                             dead bodies without legs and arms. —The Juche
-                       </b>
+                        </b>
                     </DialogContentText>
                     <Typography
                         style={{
                             color: "#094FA2",
-                            fontSize: "30px",
+                            fontSize: "25px",
                             WebkitTextStrokeWidth: 0,
                             padding: "12px 0px",
                         }}
@@ -38,7 +38,7 @@ export default function Value({ dalogId, setDalogId, setShowDialog }) {
                         <b>Our Revolution</b>
                     </Typography>
                 </Box>
-                <Box display="flex" flexGrow={1} justifyContent="center" padding="0px 32px">
+                <Box display="flex" flexGrow={1} justifyContent="center" padding="0px 32px" marginTop="3%">
                     <Box display="flex" width="80%" justifyContent="space-between">
                         <Box display="flex" flexDirection="column">
                             <Box>
