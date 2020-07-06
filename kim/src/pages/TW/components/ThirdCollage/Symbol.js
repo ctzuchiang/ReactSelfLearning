@@ -33,7 +33,7 @@ export default function Symbol({ dalogId, setDalogId, setShowDialog }) {
                         <Box
                             display="flex"
                             bgcolor="#D9F0EF"
-                            padding="32px 64px"
+                            padding="32px"
                             justifyContent="space-between"
                             marginBottom="8px"
                         >
@@ -87,7 +87,7 @@ export default function Symbol({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
-                    <Box width="25%" maxWidth="25%" paddingRight="20px">
+                    <Box width="25%" maxWidth="25%" paddingRight="20px" paddingLeft="8px">
                         <Typography
                             style={{
                                 color: "#094FA2",
@@ -101,7 +101,7 @@ export default function Symbol({ dalogId, setDalogId, setShowDialog }) {
                             Do not scale down the white sun, or we will become a party state again!
                         </Typography>
                     </Box>
-                    <Box width="25%" maxWidth="25%" paddingRight="20px">
+                    <Box width="25%" maxWidth="25%" paddingRight="28px">
                         <Typography
                             style={{
                                 color: "#094FA2",

@@ -18,7 +18,7 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-33px" }}>
+            <DialogContent>
                 <Box display="flex">
                     <Box flexGrow={1} width="50%" maxWidth="50%" marginRight="12px">
                         <Box>
@@ -33,14 +33,13 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                         <Box
                             display="flex"
                             bgcolor="#D9F0EF"
-                            padding="12px 64px 24px 64px"
+                            padding="18px 32px"
                             justifyContent="space-between"
                             marginBottom="8px"
                         >
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        padding: "16px 0px",
                                         position: "relative",
                                         width: "80%",
                                         maxHeight: "300px",
@@ -51,18 +50,21 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "16px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                     align="center"
                                 >
-                                    <b>Our nation father Sun Yat-sen</b>
+                                    <b>
+                                        Previous dictator
+                                        <br />
+                                        Chiang kai-shek
+                                    </b>
                                 </Typography>
                             </Box>
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        padding: "16px 0px",
                                         position: "relative",
                                         width: "80%",
                                         maxHeight: "300px",
@@ -73,12 +75,16 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "16px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                     align="center"
                                 >
-                                    <b>Previous dictator Chiang Kai-shek</b>
+                                    <b>
+                                        our nation father
+                                        <br />
+                                        Sun Yat-sen
+                                    </b>
                                 </Typography>
                             </Box>
                         </Box>
@@ -93,13 +99,12 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                         marginLeft="12px"
                         alignItems="center"
                     >
-                        <Box display="flex" padding="24px 64px" justifyContent="center" flexGrow={1}>
+                        <Box display="flex" padding="18px 64px" justifyContent="center" flexGrow={1}>
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        paddingBottom: "16px",
                                         position: "relative",
-                                        width: "60%",
+                                        width: "70%",
                                         // maxHeight: "320px",
                                     }}
                                     src="/pic/TW/politicians/3.png"
@@ -108,23 +113,27 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                                 <Typography
                                     style={{
                                         color: "#094FA2",
-                                        fontSize: "16px",
+                                        fontSize: "20px",
                                         WebkitTextStrokeWidth: 0,
                                     }}
                                     align="center"
                                 >
-                                    <b>President Tsai Ing-wen</b>
+                                    <b>
+                                        Current president
+                                        <br />
+                                        Tsai Ing-wen
+                                    </b>
                                 </Typography>
                             </Box>
                         </Box>
                     </Box>
                 </Box>
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
-                    <Box width="25%" maxWidth="25%" paddingRight="20px">
+                    <Box width="25%" maxWidth="25%" paddingRight="20px" paddingLeft="8px">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -134,11 +143,11 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                             father.
                         </Typography>
                     </Box>
-                    <Box width="25%" maxWidth="25%" paddingRight="20px">
+                    <Box width="25%" maxWidth="25%" paddingRight="28px">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -151,7 +160,7 @@ export default function PoliticalFigures({ dalogId, setDalogId, setShowDialog })
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
