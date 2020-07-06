@@ -43,15 +43,12 @@ export default function FourCollageMenu({ dalogId, setDalogId }) {
             setFourTypographySelected(false);
         }
     }, [dalogId]);
-    
+
     return (
         <React.Fragment>
             <ToggleButtonGroup exclusive value={dalogId} onChange={handleToggleChange}>
                 <DailogToggleButton selected={FourTypographySelected} value="FourTypography">
                     <b>Typography</b>
-                </DailogToggleButton>
-                <DailogToggleButton value="Holidays">
-                    <b>Holidays</b>
                 </DailogToggleButton>
             </ToggleButtonGroup>
         </React.Fragment>

@@ -10,7 +10,6 @@ import Logo from "./components/ThirdCollage/Logo";
 import Emblem from "./components/ThirdCollage/Emblem";
 import Landmarks from "./components/ThirdCollage/Landmarks";
 import FourTypography from "./components/FourCollage/FourTypography";
-import Holidays from "./components/FourCollage/Holidays";
 import LogoExampleOne from "./components/ThirdCollage/LogoExampleOne";
 import LogoExampleTwo from "./components/ThirdCollage/LogoExampleTwo";
 import EmblemExample from "./components/ThirdCollage/EmblemExample";
@@ -78,9 +77,6 @@ export default function DialogBox({ showDialog, setShowDialog, dalogId, setDalog
                 )}
                 {dalogId === "SanSerifExampleTwo" && (
                     <SanSerifExampleTwo dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
-                )}
-                {dalogId === "Holidays" && (
-                    <Holidays dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />
                 )}
                 {dalogId === "ToneOfVoice" && (
                     <ToneOfVoice dalogId={dalogId} setDalogId={setDalogId} setShowDialog={setShowDialog} />

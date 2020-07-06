@@ -34,7 +34,7 @@ export default function SanSerifExampleTwo({ dalogId, setDalogId, setShowDialog 
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
                     previous={() => setDalogId("SanSerifExampleOne")}
-                    next={() => setDalogId("Holidays")}
+                    next={() => setDalogId("FourTypography")}
                 />
             </DialogActions>
         </React.Fragment>

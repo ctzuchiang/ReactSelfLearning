@@ -42,7 +42,7 @@ export default function FourTypography({ dalogId, setDalogId, setShowDialog }) {
             <DialogActions>
                 <DialogActionGroup
                     setShowDialog={setShowDialog}
-                    previous={() => setDalogId("Holidays")}
+                    previous={() => setDalogId("SanSerifExampleTwo")}
                     next={() => setDalogId("SanSerifExampleOne")}
                 />
             </DialogActions>
