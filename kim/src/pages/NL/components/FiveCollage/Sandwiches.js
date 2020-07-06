@@ -18,7 +18,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContent style={{ marginTop: "-38px" }}>
+            <DialogContent>
                 <Box maxWidth="50%" paddingBottom="8px">
                     <DialogContentText style={{ color: "#094FA2", fontSize: "20px" }}>
                         <b>
@@ -29,7 +29,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                     </DialogContentText>
                 </Box>
                 <Box
-                    padding="16px 32px"
+                    padding="32px"
                     marginTop="-12px"
                     bgcolor="#FFDCBF"
                     display="flex"
@@ -92,13 +92,14 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
 
-                <Box display="flex" flexGrow={1} justifyContent="space-between" marginTop="12px">
+                <Box display="flex" flexGrow={1} justifyContent="space-between">
                     <Box display="flex" width="30%" flexDirection="column">
                         <Typography
                             style={{
                                 color: "#094FA2",
                                 fontSize: "20px",
                                 WebkitTextStrokeWidth: 0,
+                                padding: "8px 0px",
                             }}
                         >
                             <b>Boterham</b>
@@ -106,7 +107,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -119,6 +120,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                             style={{
                                 color: "#094FA2",
                                 fontSize: "20px",
+                                padding: "8px 0px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -127,7 +129,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -140,6 +142,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                             style={{
                                 color: "#094FA2",
                                 fontSize: "20px",
+                                padding: "8px 0px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -148,7 +151,7 @@ export default function Sandwiches({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >

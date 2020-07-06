@@ -30,7 +30,7 @@ export default function Weather({ dalogId, setDalogId, setShowDialog }) {
                     </DialogContentText>
                 </Box>
                 <Box
-                    padding="16px 32px"
+                    padding="32px"
                     bgcolor="#FFDCBF"
                     display="flex"
                     flexGrow={1}
