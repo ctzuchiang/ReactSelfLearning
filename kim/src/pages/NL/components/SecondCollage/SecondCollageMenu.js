@@ -38,7 +38,7 @@ export default function SecondCollageMenu({ dalogId, setDalogId }) {
     const [ColorSpecificationSelected, setColorSpecificationSelected] = React.useState(false);
 
     React.useEffect(() => {
-        if (dalogId === "ColorSpecification" || dalogId === "HappyExamples" || dalogId === "RoyalExampleOne") {
+        if (dalogId === "ColorSpecification" || dalogId === "HappyExamples" || dalogId === "EcstaticExample") {
             setColorSpecificationSelected(true);
         } else {
             setColorSpecificationSelected(false);
