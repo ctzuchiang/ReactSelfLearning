@@ -18,8 +18,8 @@ export default function Socialism({ dalogId, setDalogId, setShowDialog }) {
                     </Box>
                 </Box>
             </DialogTitle>
-            <DialogContentText style={{ padding: "0px 32px" }}>
-                <Box display="flex" padding="10px 64px" bgcolor="#FDD1D3" alignItems="center" marginTop="-18px">
+            <DialogContentText>
+                <Box display="flex" padding="48px 64px" bgcolor="#FDD1D3" alignItems="center" marginTop="-18px">
                     <img
                         width="400px"
                         height="300px"
