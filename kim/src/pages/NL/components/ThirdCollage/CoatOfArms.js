@@ -41,11 +41,10 @@ export default function CoatOfArms({ dalogId, setDalogId, setShowDialog }) {
                         marginLeft="12px"
                         alignItems="center"
                     >
-                        <Box display="flex" padding="24px 64px" justifyContent="center" flexGrow={1}>
+                        <Box display="flex" padding="32px 64px" justifyContent="center" flexGrow={1}>
                             <Box display="flex" flexDirection="column" alignItems="center">
                                 <img
                                     style={{
-                                        paddingBottom: "16px",
                                         position: "relative",
                                         width: "60%",
                                         maxHeight: "320px",
@@ -60,8 +59,9 @@ export default function CoatOfArms({ dalogId, setDalogId, setShowDialog }) {
                 <Typography
                     style={{
                         color: "#094FA2",
-                        fontSize: "25px",
+                        fontSize: "20px",
                         WebkitTextStrokeWidth: 0,
+                        padding: "8px 0px",
                     }}
                 >
                     <b>How to use</b>
@@ -71,7 +71,7 @@ export default function CoatOfArms({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "20px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -84,7 +84,7 @@ export default function CoatOfArms({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
