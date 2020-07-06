@@ -30,7 +30,7 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                         flexDirection="column"
                     >
                         <Box display="flex" justifyContent="center" alignItems="center">
-                            <Box display="flex" justifyContent="center" alignItems="center" width="100%" >
+                            <Box display="flex" justifyContent="center" alignItems="center" width="100%">
                                 <img
                                     style={{
                                         position: "relative",
@@ -44,10 +44,10 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Allowed</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 <b>The grandness of our Great successor peak through. Prime example!</b>
                             </Typography>
                         </Box>
@@ -76,10 +76,10 @@ export default function LogoExampleTwo({ dalogId, setDalogId, setShowDialog }) {
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Prohibited</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 <b>NO! What a disgrace to make a mockery out of our great successor! NO!</b>
                             </Typography>
                         </Box>

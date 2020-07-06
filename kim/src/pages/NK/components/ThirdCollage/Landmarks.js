@@ -67,7 +67,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -89,7 +89,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -111,7 +111,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -134,7 +134,7 @@ export default function Landmarks({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >

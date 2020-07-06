@@ -34,8 +34,8 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "100%",
-                                        maxHeight: "350px",
+                                        width: "360px",
+                                        // maxHeight: "350px",
                                     }}
                                     src="/pic/NK/emblem/passport.png"
                                     alt=""
@@ -45,8 +45,8 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "100%",
-                                        maxHeight: "350px",
+                                        width: "340px",
+                                        maxHeight: "450px",
                                     }}
                                     src="/pic/NK/emblem/passport2.png"
                                     alt=""
@@ -55,10 +55,17 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Official Documents</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography
+                                style={{
+                                    color: "#094FA2",
+                                    fontSize: "15px",
+                                    WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
+                                }}
+                            >
                                 <b>passports</b>
                             </Typography>
                         </Box>
@@ -74,12 +81,12 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                         // alignItems="center"
                     >
                         <Box display="flex" justifyContent="center" alignItems="center">
-                            <Box width="80%">
+                            <Box width="80%" display="flex" justifyContent="center" alignItems="center">
                                 <img
                                     style={{
                                         position: "relative",
-                                        width: "100%",
-                                        maxHeight: "330px",
+                                        width: "500px",
+                                        maxHeight: "450px",
                                     }}
                                     src="/pic/NK/emblem/embassy.png"
                                     alt=""
@@ -87,10 +94,17 @@ export default function EmblemExample({ dalogId, setDalogId, setShowDialog }) {
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Signage</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography
+                                style={{
+                                    color: "#094FA2",
+                                    fontSize: "15px",
+                                    WebkitTextStrokeWidth: 0,
+                                    fontWeight: "regular",
+                                }}
+                            >
                                 <b>Embassy main entrance</b>
                             </Typography>
                         </Box>

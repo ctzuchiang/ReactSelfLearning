@@ -44,14 +44,14 @@ export default function LogoExampleOne({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
 
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Allowed</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 <b>
                                     Big portraits with detailed expression and decorations. Suitable for our people to
                                     worship their leadership.
-                               </b>
+                                </b>
                             </Typography>
                         </Box>
                     </Box>
@@ -79,14 +79,14 @@ export default function LogoExampleOne({ dalogId, setDalogId, setShowDialog }) {
                             </Box>
                         </Box>
                         <Box paddingTop="16px">
-                            <Typography style={{ color: "#094FA2", fontSize: "25px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
                                 <b>Prohibited</b>
                             </Typography>
-                            <Typography style={{ color: "#094FA2", fontSize: "20px", WebkitTextStrokeWidth: 0 }}>
+                            <Typography style={{ color: "#094FA2", fontSize: "15px", WebkitTextStrokeWidth: 0 }}>
                                 <b>
                                     Bad quality and small picture size. The essence of our leader is not significant
                                     enough with poor placement.
-                               </b>
+                                </b>
                             </Typography>
                         </Box>
                     </Box>

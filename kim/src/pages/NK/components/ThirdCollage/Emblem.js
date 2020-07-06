@@ -27,7 +27,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                                     Our great leader created this original masterpiece. This symbol is showing how
                                     devoted Mount Baekdu bloodlines’ are to our people. We have to be forever grateful
                                     for this socialist utopia, the great leader created.
-                               </b>
+                                </b>
                             </DialogContentText>
                         </Box>
                     </Box>
@@ -60,7 +60,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                 <Typography
                     style={{
                         color: "#094FA2",
-                        fontSize: "25px",
+                        fontSize: "20px",
                         WebkitTextStrokeWidth: 0,
                     }}
                 >
@@ -71,7 +71,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "20px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -83,7 +83,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -95,7 +95,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >
@@ -106,7 +106,7 @@ export default function Emblem({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                             }}
                         >

@@ -27,7 +27,7 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                                     Without the Mount Beakdu Bloodline and their dynasty, it is impossible to practice
                                     Juche’s idea of self-reliance. We have to admire them. It is a genuine
                                     hero-worshiping.
-                               </b>
+                                </b>
                             </DialogContentText>
                         </Box>
                         <Box
@@ -107,12 +107,22 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                         </Box>
                     </Box>
                 </Box>
+                <Typography
+                    style={{
+                        color: "#094FA2",
+                        fontSize: "20px",
+                        WebkitTextStrokeWidth: 0,
+                    }}
+                    gutterBottom
+                >
+                    <b>How to use</b>
+                </Typography>
                 <Box display="flex" flexGrow={1} justifyContent="space-between">
                     <Box width="25%" maxWidth="25%" paddingRight="20px">
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -125,7 +135,7 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -138,7 +148,7 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
@@ -152,14 +162,14 @@ export default function Logo({ dalogId, setDalogId, setShowDialog }) {
                         <Typography
                             style={{
                                 color: "#094FA2",
-                                fontSize: "18px",
+                                fontSize: "15px",
                                 WebkitTextStrokeWidth: 0,
                                 lineHeight: 1.4,
                             }}
                         >
-                            4. Be creative on the logo placement. They are probiding us with everything, and we need to
-                            return this favour with our heart and soul. Huge portraits and big staues in public area are
-                            prime examples for the mass, but small
+                            4. Huge portraits and big statues in the public area are prime examples for the mass, but
+                            small objects such as pins can also express loyalty and appreciation on a more personal
+                            level.
                         </Typography>
                     </Box>
                 </Box>
